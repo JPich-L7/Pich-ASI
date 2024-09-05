@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact !important;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: aliceblue;
+  background-color: #1f1f21;
+}
+.div1 {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  background-color: aliceblue;
+  padding: 10px 50px;
+  color: #1f1f21;
+}
+.div2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  /* padding: -10px; */
+  /* background-color: antiquewhite; */
+  padding-right: 20px;
+}
+.div3 {
+  padding: 10px;
+  text-align: center;
+  /* width: 30%; */
+}
+.div4 {
+  padding: 0px 20px;
+}
+.width-nav {
+  width: 35%;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  background-color: azure;
+  /* width: 30%; */
+  padding: 0px 0px 0px 100px;
+}
+.brand {
+  padding: 11.5px;
+  max-width: 55%;
+  max-height: 55%;
+  /* background-color: aliceblue; */
+}
+.para1 {
+  margin-top: -9px;
+  text-transform: uppercase;
+  font-size: 70px;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.para2 {
+  margin: 5px 0px;
+}
+.para3 {
+  font-size: 25px;
+}
+.tbl {
+  margin-top: 20px;
+  width: 100%;
+  height: 362px;
+}
+.td1 {
+  width: calc(100% / 3);
+  background: url("https://static.nike.com/a/images/f_auto/dpr_1.8,cs_srgb/h_540,c_limit/756f4c11-2bb1-4499-8c41-ab5a9538098a/nike-just-do-it.png");
+  background-size: 100%;
+}
+.td2 {
+  width: calc(100% / 3);
+  background: url("https://static.nike.com/a/images/f_auto/dpr_1.8,cs_srgb/h_540,c_limit/cbca3632-abc4-41bd-8e61-de5ce9c058b2/image.png");
+  background-size: 100%;
+}
+.td3 {
+  width: calc(100% / 3);
+  background: url("https://static.nike.com/a/images/f_auto/dpr_1.8,cs_srgb/h_540,c_limit/fa92f2d4-b501-43ea-b7c0-2624279396ce/nike-just-do-it.png");
+  background-size: 100%;
+}
+.td1,
+.td2,
+.td3,
+.div-td {
+  padding: 20px;
+  vertical-align: bottom;
+  /* background-color: aquamarine; */
+}
+.td1,
+.td2,
+.td3,
+.div-td,
+h2 {
+  font-size: 1.1rem;
+  /* color: aliceblue; */
+  padding-bottom: 20px;
+}
+.btn {
+  padding: 10px 20px;
+  border-radius: 80px;
+  border: none;
+}
+.margin-btn {
+  margin: 15px 5px 0px;
+}
+.search {
+  height: 25px;
+  border-radius: 100px;
+  border: none;
+  margin-right: 10px;
+}
+.margin-icon {
+  margin: 0px 5px;
+}
+/* form {
+  border: 1px solid rgb(192, 53, 53);
+  border-radius: 100px;
+  padding: 0px 10px;
+  display: flex;
+  gap: 5px;
+  width: 100px;
+  margin: 0 auto;
+  background-color: brown;
+}
+
+.search {
+  background-color: transparent;
+  border: none;
+  margin: 10px 0px;
+  cursor: pointer;
+  background-color: blue;
+}
+
+input {
+  border: none;
+  outline: none;
+  width: 100%;
+} */
